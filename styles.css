@@ -1,0 +1,70 @@
+hmtl, body {
+    height: 100%;
+    background-color: #CCC;
+
+
+}
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.fullscreen_bg {
+    background: url("images/pexels-andrea-piacquadio-3769138.jpg") center / cover no-repeat fixed;
+}
+
+.fullscreen {
+    min-height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    padding: 20px auto;
+}
+
+.fullscreen_two {
+    background-color: rgb(21, 154, 163);
+}
+
+.fullscreen__body {
+ 
+    flex: 1 1 auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; /*IE issue*/
+    padding: 15px 0;
+
+}
+
+.fullscreen__title {
+    font-size: 50px;
+
+}
+
+.fullscreen__link {
+    background-color: antiquewhite;
+    letter-spacing: 5px;
+    padding: 10px;
+    align-self: center;
+}
+
+.content_body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;    
+}
+
+.footer {
+    background-color: crimson;
+    text-align: center;
+
+}
+
+.footer_body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
