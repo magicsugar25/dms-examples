@@ -13,6 +13,7 @@ hmtl, body {
 .fullscreen_bg {
     background: url("pexels-andrea-piacquadio-3769138.jpg") center / cover no-repeat fixed;
     background-size: contain;
+    border:1px solid red;
 }
 
 .fullscreen {
